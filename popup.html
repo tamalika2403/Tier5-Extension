@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body style="width: 176px; height: 80px;">
+        <div style="padding: 10px 16px; height: 40px;">
+            <img src="palette.png" style="float: left;">
+            <h1 id="remove" style="cursor: pointer; font-size: 16px; font-family: 'Nunito', sans-serif; color: #616161; position: absolute; left: 50px; top: 15px;">Remove all</h1>
+        </div>
+        <div id="colors" style="margin: 0px 16px;" class="text-center">
+            <label class="selected" style="background-color: #F5FA57; position: absolute; top: 50px; left: 20px;">
+                <input type="radio" checked="checked" name="color" value="F5FA57" />
+                <span></span>
+            </label>
+            <label style="background-color: #FF4343; position: absolute; top: 50px; left: 100px;">
+                <input type="radio" name="color" value="FF4343" />
+                <span></span>
+            </label>
+            <label style="background-color: #1ACEEB; position: absolute; top: 120px; left: 20px;">
+                <input type="radio" name="color" value="1ACEEB" />
+                <span></span>
+            </label>
+            <label style="background-color: #1AF572; position: absolute; top: 120px; left: 100px;">
+                <input type="radio" name="color" value="1AF572" />
+                <span></span>
+            </label>
+            <label style="background-color: #183540; position: absolute; top: 190px; left: 20px;">
+                <input type="radio" name="color" value="183540" />
+                <span></span>
+            </label>
+            <label style="background-color: #AD0606; position: absolute; top: 190px; left: 100px;">
+                <input type="radio" name="color" value="AD0606" />
+                <span></span>
+            </label>
+        </div>
+
+        <div style="margin-top: 20px; margin-left: 16px; margin-right: 16px;">
+            <button id="highlight" class="w-100" style="font-family: 'Nunito', sans-serif; font-size: 16px; height: 47px; border: none; border-radius: 4px; background: #FFDA16; color: #3B3B3B; margin-bottom: 32px;">Turn on</button>
+        </div>
+    </body>
+    <script src="popup.js"></script>
+</html>
